@@ -55,7 +55,7 @@ void printScheduleToJson(schedule_list* schedules, const char* filename)
                                         }
                                         else
                                         {
-                                            str += std::to_string(schedule_data.end_time.minute);
+                                            str += std::to_string(schedule_data.start_time.minute);
                                         }
                                         str += " ~ ";
                                         str += std::to_string(schedule_data.end_time.hour) + ':';
